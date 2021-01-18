@@ -6,14 +6,18 @@
     <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta name="keywords" content="">
-    <link rel="stylesheet" type="text/css" href="web/css/styles.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&amp;display=swap" onload="this.rel='stylesheet'" as="style">
+    <link rel="preload" href="web/css/styles.css" onload="this.rel='stylesheet'" as="style" type="text/css">
   </head>
   <body>
     <div class="wrapper">
       <div class="wrapper__top">
         <header class="header">
           <div class="container">
-            <div class="header__wrap"><a class="header__logo" href="#"><img src="web/images/content/header__logo.png" alt="TankUp!"></a>
+            <div class="header__wrap"><a class="header__logo" href="#">
+                <picture>
+                  <source srcset="web/images/content/header__logo.webp" type="image/webp"><img src="web/images/content/header__logo.png" alt="TankUp!">
+                </picture></a>
               <div class="header__connection"><a class="header__phone g-guidance-ffect" href="tel:3832121263"> (383) 212-12-63</a><a class="header__mail g-guidance-ffect" href="mailto:vimpioil@yandex.ru">vimpioil@yandex.ru</a></div>
               <div class="header__call-btn popup-btn"><a class="g-btn" href="#">Обратный звонок</a></div>
             </div>
@@ -29,7 +33,11 @@
                 <div class="top__block__left-btn popup__order-btn"><a class="g-btn" href="#">Заказать топливо</a></div>
               </div>
               <div class="top__block__right">
-                <div class="top__block__right-img"><img src="web/images/content/header__img.png" alt="car"></div>
+                <div class="top__block__right-img">
+                  <picture>
+                    <source srcset="web/images/content/header__img.webp" type="image/webp"><img src="web/images/content/header__img.png" alt="car">
+                  </picture>
+                </div>
               </div>
             </div>
           </div>
@@ -53,7 +61,11 @@
                 <h2 class="g-title">Категории продуктов</h2>
                 <div class="category__product-wrap">
                   <div class="category__product-item">
-                    <div class="category__product-img"><img src="web/images/content/product__img-1.png" alt="product1"></div>
+                    <div class="category__product-img">
+                      <picture>
+                        <source srcset="web/images/content/product__img-1.webp" type="image/webp"><img src="web/images/content/product__img-1.png" alt="product1">
+                      </picture>
+                    </div>
                     <div class="category__product-body">
                       <h3>Бензин</h3>
                       <ul>
@@ -65,7 +77,11 @@
                     </div>
                   </div>
                   <div class="category__product-item">
-                    <div class="category__product-img"><img src="web/images/content/product__img-2.png" alt="product2"></div>
+                    <div class="category__product-img">
+                      <picture>
+                        <source srcset="web/images/content/product__img-2.webp" type="image/webp"><img src="web/images/content/product__img-2.png" alt="product2">
+                      </picture>
+                    </div>
                     <div class="category__product-body">
                       <h3>Дизельное топливо</h3>
                       <ul>
@@ -78,7 +94,11 @@
                     </div>
                   </div>
                   <div class="category__product-item">
-                    <div class="category__product-img"><img src="web/images/content/product__img-3.png" alt="product3"></div>
+                    <div class="category__product-img">
+                      <picture>
+                        <source srcset="web/images/content/product__img-3.webp" type="image/webp"><img src="web/images/content/product__img-3.png" alt="product3">
+                      </picture>
+                    </div>
                     <div class="category__product-body">
                       <h3>Сырьё и тёмные нефтепродукты</h3>
                       <ul>
@@ -100,42 +120,66 @@
                 <h2 class="g-title">С нами вы можете быть уверены в<br> надежности доставки и качестве топлива!</h2>
                 <div class="quality__product-wrap">
                   <div class="quality__product-item">
-                    <div class="quality__product-img"><img src="web/images/content/quality-img-1.png" alt="quality-img-1"></div>
+                    <div class="quality__product-img">
+                      <picture>
+                        <source srcset="web/images/content/quality-img-1.webp" type="image/webp"><img src="web/images/content/quality-img-1.png" alt="quality-img-1">
+                      </picture>
+                    </div>
                     <div class="quality__product-body">
                       <h3 class="g-sub-title">10 лет</h3>
                       <p>Мы продаем качественные нефтепродукты</p>
                     </div>
                   </div>
                   <div class="quality__product-item">
-                    <div class="quality__product-img"><img src="web/images/content/quality-img-2.png" alt="quality-img-2"></div>
+                    <div class="quality__product-img">
+                      <picture>
+                        <source srcset="web/images/content/quality-img-2.webp" type="image/webp"><img src="web/images/content/quality-img-2.png" alt="quality-img-2">
+                      </picture>
+                    </div>
                     <div class="quality__product-body">
                       <h3 class="g-sub-title">5 крупнейших</h3>
                       <p>Поставщиков нефтепродуктов в России</p>
                     </div>
                   </div>
                   <div class="quality__product-item">
-                    <div class="quality__product-img"><img src="web/images/content/quality-img-3.png" alt="quality-img-3"></div>
+                    <div class="quality__product-img">
+                      <picture>
+                        <source srcset="web/images/content/quality-img-3.webp" type="image/webp"><img src="web/images/content/quality-img-3.png" alt="quality-img-3">
+                      </picture>
+                    </div>
                     <div class="quality__product-body">
                       <h3 class="g-sub-title">4 000 литров</h3>
                       <p>Начальный объем доставки нашим клиентам</p>
                     </div>
                   </div>
                   <div class="quality__product-item">
-                    <div class="quality__product-img"><img src="web/images/content/quality-img-4.png" alt="quality-img-4"></div>
+                    <div class="quality__product-img">
+                      <picture>
+                        <source srcset="web/images/content/quality-img-4.webp" type="image/webp"><img src="web/images/content/quality-img-4.png" alt="quality-img-4">
+                      </picture>
+                    </div>
                     <div class="quality__product-body">
                       <h3 class="g-sub-title">3 этапа</h3>
                       <p>Проверки качества продуктов</p>
                     </div>
                   </div>
                   <div class="quality__product-item">
-                    <div class="quality__product-img"><img src="web/images/content/quality-img-5.png" alt="quality-img-5"></div>
+                    <div class="quality__product-img">
+                      <picture>
+                        <source srcset="web/images/content/quality-img-5.webp" type="image/webp"><img src="web/images/content/quality-img-5.png" alt="quality-img-5">
+                      </picture>
+                    </div>
                     <div class="quality__product-body">
                       <h3 class="g-sub-title">25 сертификатов</h3>
                       <p>Качества продукции</p>
                     </div>
                   </div>
                   <div class="quality__product-item">
-                    <div class="quality__product-img"><img src="web/images/content/quality-img-6.png" alt="quality-img-6"></div>
+                    <div class="quality__product-img">
+                      <picture>
+                        <source srcset="web/images/content/quality-img-6.webp" type="image/webp"><img src="web/images/content/quality-img-6.png" alt="quality-img-6">
+                      </picture>
+                    </div>
                     <div class="quality__product-body">
                       <h3 class="g-sub-title">2 собственные</h3>
                       <p>Нефтебазы</p>
@@ -1608,37 +1652,65 @@ EgAAAAAAAAAAAAAAAAA4Ev4XYAC6GT1KNoqhyAAAAABJRU5ErkJggg==">
                 <div class="swiper-container sectificate-slider__swiper">
                   <div class="swiper-wrapper">
                     <div class="swiper-slide"><a class="sectificate-slider__swiper-elem" href="web/images/content/sertificate.png" data-rel="lightcase:a">
-                        <div class="sectificate-slider__swiper-img"><img src="web/images/content/sertificate.png" alt="sertificate1"></div>
+                        <div class="sectificate-slider__swiper-img">
+                          <picture>
+                            <source srcset="web/images/content/sertificate.webp" type="image/webp"><img src="web/images/content/sertificate.png" alt="sertificate1">
+                          </picture>
+                        </div>
                         <div class="sectificate-slider__swiper-body">
                           <p>Сертификат <br> АИ-95</p>
                         </div></a></div>
                     <div class="swiper-slide"><a class="sectificate-slider__swiper-elem" href="web/images/content/sertificate.png" data-rel="lightcase:a">
-                        <div class="sectificate-slider__swiper-img"><img src="web/images/content/sertificate.png" alt="sertificate1"></div>
+                        <div class="sectificate-slider__swiper-img">
+                          <picture>
+                            <source srcset="web/images/content/sertificate.webp" type="image/webp"><img src="web/images/content/sertificate.png" alt="sertificate1">
+                          </picture>
+                        </div>
                         <div class="sectificate-slider__swiper-body">
                           <p>Сертификат <br> АИ-95</p>
                         </div></a></div>
                     <div class="swiper-slide"><a class="sectificate-slider__swiper-elem" href="web/images/content/sertificate.png" data-rel="lightcase:a">
-                        <div class="sectificate-slider__swiper-img"><img src="web/images/content/sertificate.png" alt="sertificate1"></div>
+                        <div class="sectificate-slider__swiper-img">
+                          <picture>
+                            <source srcset="web/images/content/sertificate.webp" type="image/webp"><img src="web/images/content/sertificate.png" alt="sertificate1">
+                          </picture>
+                        </div>
                         <div class="sectificate-slider__swiper-body">
                           <p>Сертификат <br> АИ-95</p>
                         </div></a></div>
                     <div class="swiper-slide"><a class="sectificate-slider__swiper-elem" href="web/images/content/sertificate.png" data-rel="lightcase:a">
-                        <div class="sectificate-slider__swiper-img"><img src="web/images/content/sertificate.png" alt="sertificate1"></div>
+                        <div class="sectificate-slider__swiper-img">
+                          <picture>
+                            <source srcset="web/images/content/sertificate.webp" type="image/webp"><img src="web/images/content/sertificate.png" alt="sertificate1">
+                          </picture>
+                        </div>
                         <div class="sectificate-slider__swiper-body">
                           <p>Сертификат <br> АИ-95</p>
                         </div></a></div>
                     <div class="swiper-slide"><a class="sectificate-slider__swiper-elem" href="web/images/content/sertificate.png" data-rel="lightcase:a">
-                        <div class="sectificate-slider__swiper-img"><img src="web/images/content/sertificate.png" alt="sertificate1"></div>
+                        <div class="sectificate-slider__swiper-img">
+                          <picture>
+                            <source srcset="web/images/content/sertificate.webp" type="image/webp"><img src="web/images/content/sertificate.png" alt="sertificate1">
+                          </picture>
+                        </div>
                         <div class="sectificate-slider__swiper-body">
                           <p>Сертификат <br> АИ-95</p>
                         </div></a></div>
                     <div class="swiper-slide"><a class="sectificate-slider__swiper-elem" href="web/images/content/sertificate.png" data-rel="lightcase:a">
-                        <div class="sectificate-slider__swiper-img"><img src="web/images/content/sertificate.png" alt="sertificate1"></div>
+                        <div class="sectificate-slider__swiper-img">
+                          <picture>
+                            <source srcset="web/images/content/sertificate.webp" type="image/webp"><img src="web/images/content/sertificate.png" alt="sertificate1">
+                          </picture>
+                        </div>
                         <div class="sectificate-slider__swiper-body">
                           <p>Сертификат <br> АИ-95</p>
                         </div></a></div>
                     <div class="swiper-slide"><a class="sectificate-slider__swiper-elem" href="web/images/content/sertificate.png" data-rel="lightcase:a">
-                        <div class="sectificate-slider__swiper-img"><img src="web/images/content/sertificate.png" alt="sertificate1"></div>
+                        <div class="sectificate-slider__swiper-img">
+                          <picture>
+                            <source srcset="web/images/content/sertificate.webp" type="image/webp"><img src="web/images/content/sertificate.png" alt="sertificate1">
+                          </picture>
+                        </div>
                         <div class="sectificate-slider__swiper-body">
                           <p>Сертификат <br> АИ-95</p>
                         </div></a></div>
@@ -1729,31 +1801,59 @@ EgAAAAAAAAAAAAAAAAA4Ev4XYAC6GT1KNoqhyAAAAABJRU5ErkJggg==">
                 <h2 class="g-title">Мы работаем только с крупными<br> партнерами</h2>
                 <div class="partners__product-wrap">
                   <div class="partners__product-item">
-                    <div class="partners__product-img"><img src="web/images/content/partners-img-1.png" alt="partners-img-1"></div>
+                    <div class="partners__product-img">
+                      <picture>
+                        <source srcset="web/images/content/partners-img-1.webp" type="image/webp"><img src="web/images/content/partners-img-1.png" alt="partners-img-1">
+                      </picture>
+                    </div>
                     <p><span>34 125 </span>тонн топлива доставлено</p>
                   </div>
                   <div class="partners__product-item">
-                    <div class="partners__product-img"><img src="web/images/content/partners-img-2.png" alt="partners-img-2"></div>
+                    <div class="partners__product-img">
+                      <picture>
+                        <source srcset="web/images/content/partners-img-2.webp" type="image/webp"><img src="web/images/content/partners-img-2.png" alt="partners-img-2">
+                      </picture>
+                    </div>
                     <p><span>34 125 </span>тонн топлива доставлено</p>
                   </div>
                   <div class="partners__product-item">
-                    <div class="partners__product-img"><img src="web/images/content/partners-img-3.png" alt="partners-img-3"></div>
+                    <div class="partners__product-img">
+                      <picture>
+                        <source srcset="web/images/content/partners-img-3.webp" type="image/webp"><img src="web/images/content/partners-img-3.png" alt="partners-img-3">
+                      </picture>
+                    </div>
                     <p><span>34 125 </span>тонн топлива доставлено</p>
                   </div>
                   <div class="partners__product-item">
-                    <div class="partners__product-img"><img src="web/images/content/partners-img-4.png" alt="partners-img-4"></div>
+                    <div class="partners__product-img">
+                      <picture>
+                        <source srcset="web/images/content/partners-img-4.webp" type="image/webp"><img src="web/images/content/partners-img-4.png" alt="partners-img-4">
+                      </picture>
+                    </div>
                     <p><span>34 125 </span>тонн топлива доставлено</p>
                   </div>
                   <div class="partners__product-item">
-                    <div class="partners__product-img"><img src="web/images/content/partners-img-5.png" alt="partners-img-5"></div>
+                    <div class="partners__product-img">
+                      <picture>
+                        <source srcset="web/images/content/partners-img-5.webp" type="image/webp"><img src="web/images/content/partners-img-5.png" alt="partners-img-5">
+                      </picture>
+                    </div>
                     <p><span>34 125 </span>тонн топлива доставлено</p>
                   </div>
                   <div class="partners__product-item">
-                    <div class="partners__product-img"><img src="web/images/content/partners-img-6.png" alt="partners-img-6"></div>
+                    <div class="partners__product-img">
+                      <picture>
+                        <source srcset="web/images/content/partners-img-6.webp" type="image/webp"><img src="web/images/content/partners-img-6.png" alt="partners-img-6">
+                      </picture>
+                    </div>
                     <p><span>34 125 </span>тонн топлива доставлено</p>
                   </div>
                   <div class="partners__product-item">
-                    <div class="partners__product-img"><img src="web/images/content/partners-img-7.png" alt="partners-img-7"></div>
+                    <div class="partners__product-img">
+                      <picture>
+                        <source srcset="web/images/content/partners-img-7.webp" type="image/webp"><img src="web/images/content/partners-img-7.png" alt="partners-img-7">
+                      </picture>
+                    </div>
                     <p><span>34 125 </span>тонн топлива доставлено</p>
                   </div>
                 </div>
@@ -1761,7 +1861,7 @@ EgAAAAAAAAAAAAAAAAA4Ev4XYAC6GT1KNoqhyAAAAABJRU5ErkJggg==">
             </div>
           </div>
         </section>
-        <section class="contacts section-indent" data-anchor="#contacts"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2286.6561594700797!2d82.92938661590267!3d55.03171808036669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0YDRg9GB0YHQutC-LdC90LXQvNC10YbQutC40Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiBnb29nbGUgbWFw!5e0!3m2!1sru!2sua!4v1606494270077!5m2!1sru!2sua" width="`100%" height="575" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        <section class="contacts section-indent" data-anchor="#contacts"><iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2286.6561594700797!2d82.92938661590267!3d55.03171808036669!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1z0YDRg9GB0YHQutC-LdC90LXQvNC10YbQutC40Lkg0YPQvdC40LLQtdGA0YHQuNGC0LXRgiBnb29nbGUgbWFw!5e0!3m2!1sru!2sua!4v1606494270077!5m2!1sru!2sua" width="100%" height="575" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
           <div class="contacts__info-map contacts__info">
             <h3>Контакты</h3>
             <p>г. Новосибирск, <br> ул.Ядринцевская 68/1, оф 608</p>
@@ -1780,7 +1880,7 @@ EgAAAAAAAAAAAAAAAAA4Ev4XYAC6GT1KNoqhyAAAAABJRU5ErkJggg==">
             <div class="popup_content">
               <button data-close>Закрыть <strong data-close>×</strong></button>
               <div class="popup_form">
-                <form class="form" action="">
+                <form class="form">
                   <h2>Заказать звонок</h2>
                   <div class="popup_form-inputs">
                     <input type="text" placeholder="Имя">
@@ -1797,7 +1897,7 @@ EgAAAAAAAAAAAAAAAAA4Ev4XYAC6GT1KNoqhyAAAAABJRU5ErkJggg==">
             <div class="popup_content">
               <button data-close>Закрыть <strong data-close>×</strong></button>
               <div class="popup_form">
-                <form class="form" action="">
+                <form class="form">
                   <h2>Растворитель <br>углеводородный</h2>
                   <div class="popup_form-info">
                     <div class="popup__line">Цена за тонну - от 35 000 руб.</div>
@@ -1818,7 +1918,10 @@ EgAAAAAAAAAAAAAAAAA4Ev4XYAC6GT1KNoqhyAAAAABJRU5ErkJggg==">
                 <p>Copyright © 2020 VimpiOil</p>
                 <p>Продажа светлых нефтепродуктов</p>
               </div>
-              <div class="footer__police"><a class="g-guidance-ffect" href="#">Политика конфиденциальности</a></div><a class="footer__developer" href="#"><img src="web/images/content/developer-logo.png" alt="developer-logo"></a>
+              <div class="footer__police"><a class="g-guidance-ffect" href="#">Политика конфиденциальности</a></div><a class="footer__developer" href="#">
+                <picture>
+                  <source srcset="web/images/content/developer-logo.webp" type="image/webp"><img src="web/images/content/developer-logo.png" alt="developer-logo">
+                </picture></a>
             </div>
           </div>
         </footer>
